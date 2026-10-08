@@ -26,7 +26,7 @@ public class ErrorUser {
             assertThat(page.locator("[data-test='error']"))
                     .containsText("Username and password do not match");
 
-            System.out.println("✅ Invalid Login Test Passed");;
+            System.out.println("✅ Invalid Login Test Passed");
         }
     }
 }
